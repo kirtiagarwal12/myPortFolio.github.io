@@ -1,0 +1,562 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* header css starts  */
+
+#navigation {
+  background-color: whitesmoke;
+  /* color: white; */
+  padding: 5px;
+  margin: 0;
+}
+#navigation ul {
+  /* text-decoration: burlywood; */
+  /* color: brown; */
+  list-style: none;
+  text-align: right;
+  text-decoration: none;
+}
+#navigation li {
+  /* color: white; */
+  display: inline;
+  margin: 20px;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+/* header css ends */
+
+/* home css starts */
+
+#home {
+  background-color: green;
+  height: 700px;
+  display: inline-block;
+  display: flex;
+}
+
+#home .main {
+  padding: 50px;
+  margin: 100px;
+  width: 700px;
+  color: rgb(255, 255, 255);
+  background-color: green;
+}
+
+#home .main .hello {
+  font-size: 100px;
+}
+
+#home .main .name {
+  font-size: 70px;
+}
+
+#home .main .details {
+  font-size: 20px;
+}
+
+#home .buttons {
+  display: flex;
+}
+
+#home .buttons .myButton {
+  margin-right: 100px;
+  padding: 50px;
+
+  align-items: center;
+  border: 2px solid #111;
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  background-color: grey;
+}
+
+/* picture on home */
+
+#home #profile {
+  margin: 50px;
+  padding-top: 120px;
+}
+
+/* end of home css */
+
+/* aboutMe css starts  */
+
+#aboutME {
+  background-color: grey;
+  height: 650px;
+  display: flex;
+  display: inline-block;
+}
+
+#aboutMe .first {
+  margin: 0;
+  display: flex;
+}
+
+#aboutMe .container {
+  background-color: grey;
+  width: 50%;
+  /* height: 450px; */
+  padding: 30px;
+}
+
+#aboutMe .picture {
+  background-color: grey;
+  height: 650px;
+  width: 377%;
+  padding: 30px;
+}
+
+/* aboutMe css ends */
+
+/* project css starts here */
+
+#project {
+  background-color: rgb(243, 253, 244);
+  height: 800px;
+  text-align: center;
+  /* display: inline-block; */
+  padding: 50px;
+}
+
+#project .heading {
+  font-size: 30px;
+  color: green;
+}
+
+/* ongoing project css */
+
+#project .ongoing h1 {
+  text-align: center;
+  color: black;
+  font-size: 40px;
+}
+
+#project .ongoing h2 {
+  font-size: 25px;
+  color: indigo;
+  padding-bottom: 20px;
+}
+
+#project .ongoing p {
+  padding: 5px;
+  font-size: 20px;
+  text-align: left;
+}
+/*  ongoing css ends */
+
+/* completed css starts */
+
+#project .completed h1 {
+  padding: 50px;
+  text-align: center;
+  font-size: 40px;
+  /* display: flex; */
+}
+/* completed portfolio css starts */
+
+#project .completed .portfolio h2 {
+  font-size: 25px;
+  color: indigo;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+#project .completed .portfolio p {
+  padding: 5px;
+  font-size: 20px;
+  text-align: left;
+}
+
+#project .completed .content {
+  display: flex;
+}
+
+#project .completed .portfolio {
+  text-align: left;
+}
+
+/* completed portfolio ends */
+
+/* completed tap css starts */
+
+#project .completed .content .tap {
+  text-align: left;
+}
+
+#project .completed .content .tap h2 {
+  font-size: 25px;
+  color: indigo;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+#project .completed .content .tap p {
+  padding: 5px;
+  font-size: 20px;
+  text-align: left;
+}
+
+/* complwted tap ends */
+
+/* project css ends here */
+
+
+
+/* education css starts here */
+
+#education {
+  background-color: darkseagreen;
+  height: 750px;
+  display: inline-block;
+}
+
+#education .heading {
+  color: green;
+  font-size: 30px;
+  text-align: center;
+  padding: 50px;
+}
+
+#education .content {
+  display: flex;
+  padding-left: 20px;
+}
+
+/*  btech css starts */
+
+#education .content .btech {
+  width: 33.3%;
+}
+
+#education .content .btech h2 {
+  font-size: 30px;
+  text-align: center;
+  padding: 10px;
+  color: darkslategrey;
+}
+
+#education .content .btech p {
+  padding-top: 15px;
+  font-size: 20px;
+}
+
+/* btech css ends */
+
+#education .verticalLine {
+  border-left: 4px solid black;
+  height: 300px;
+  padding: 15px;
+}
+
+#education .picture {
+  padding: 50px;
+}
+
+/* intermediate css starts */
+
+#education .content .intermediate {
+  width: 33.3%;
+}
+
+#education .content .intermediate h2 {
+  font-size: 30px;
+  text-align: center;
+  padding: 10px;
+  color: darkslategrey;
+}
+
+#education .content .intermediate p {
+  padding-top: 15px;
+  font-size: 20px;
+}
+
+/* intermediate css ends */
+
+/*  hignschool css starts */
+
+#education .content .highSchool {
+  width: 33.3%;
+}
+
+#education .content .highSchool h2 {
+  font-size: 30px;
+  text-align: center;
+  padding: 10px;
+  color: darkslategrey;
+}
+
+#education .content .highSchool p {
+  padding-top: 15px;
+  font-size: 20px;
+}
+
+/* highschool css ends */
+
+/* education css ends here */
+
+
+
+/* experience css starts here */
+
+#experience {
+  height: 2000px;
+  background-color:  rgb(243, 253, 244);
+  color: black;
+  display: inline-block;
+  width: 100%;
+}
+
+#experience .heading{
+  color: green;
+  font-size: 30px;
+  text-align: center;
+  padding: 50px;
+}
+
+
+
+/* WebMaster */
+
+#experience .webmaster {
+  display: flex;
+  height: 600px;
+}
+
+#experience .content .webmaster .context h3 {
+  text-align: center;
+  font-size: 28px;
+  color: indigo;
+}
+
+
+#experience .content .webmaster .context p {
+font-size: 20px;
+padding-left: 20px;
+padding-top: 20px;
+}
+
+
+
+#experience .webmaster .web {
+  width: 50%;
+  /* background-color: white; */
+  padding: 0px;
+}
+
+#experience .webmaster .web iframe {
+  text-align: center;
+  padding-top: 40px;
+}
+
+/* webmaster ends */
+
+
+
+/* Secratory */
+
+
+#experience .secratory {
+  height: 700px;
+
+}
+
+
+#experience .secratory h1{
+  text-align: center;
+  color: indigo;
+  font-size: 28;
+}
+
+#experience .secratory .context h2{
+  font-size: 25px;
+  text-align: center;
+}
+
+#experience .secratory  .main{
+  font-size: 20px;
+text-align: left;
+
+padding-top: 30px;
+
+width: 50%;
+}
+
+#experience .secratory .content{
+display: flex;
+
+}
+
+#experience .secratory .content .pic{
+  width: 40%;
+  padding-top: 100px;
+text-align: center;
+}
+  
+
+/* secratory ends */
+
+
+
+/* intern  */
+
+#experience .intern {
+  height: 700px;
+}
+
+#experience .intern  h1{
+text-align: center;
+color: indigo;
+font-size: 28px;
+}
+
+#experience .intern .context h2 {
+  padding: 30px;
+  text-align: center;
+  font-size: 28px;
+}
+
+#experience .intern .context .main  {
+  font-size: 20px;
+  padding: 20px;
+
+}
+
+/* intern ends */
+
+/* experience ends here */
+
+
+
+/* skills starts here */
+
+#skills {
+  background-color: darkseagreen;
+  height: 800px;
+  display: inline-block;
+  width: 100%;
+}
+
+#skills h2 {
+  color: green;
+  font-size: 30px;
+  text-align: center;
+  padding: 50px;
+}
+
+#skills h3 {
+  padding-top: 0;
+font-size: 28px;
+}
+
+#skills .main{
+  display: flex;
+}
+
+#skills   h4{
+font-size: 28px;
+color: indigo;
+padding: 50px;
+text-align: center;
+}
+
+#skills .main .software {
+  font-size: 20px;
+  width: 50%;
+  padding: 50px;
+  /* text-align: center; */
+}
+
+#skills .main .achievements {
+font-size: 20px;
+width: 50%;
+padding: 50px;
+}
+
+/* 
+#skills .hobbies{
+padding: 100px;
+}
+#skills .hobbies h4{
+  color: black;
+}
+#skills .hobbies .text b{
+color: indigo;
+}
+#skills .hobbies .text{ */
+
+
+
+
+
+
+/* slills and hobbies ends here */
+
+
+
+/* contact starts here */
+
+/* #contact {
+  height: 700px;
+  background-color:  rgb(243, 253, 244);
+  color: black;
+  display: inline-block;
+  width: 100%;
+}
+#contact .contactMe {
+  height: 400px;
+  /* background-color: black; */
+  /* text-align: center; */
+  /* color: grey; */
+/* } */
+/* #contact .links {
+  height: 400px;
+  /* background-color: black; */
+  /* text-align: center; */
+  /* columns: grey; */
+/* }  */
+
+
+/* contact ends here */
+
+
+/* Footer css starts here */
+
+#footer1 {
+  background-color: green;
+  display: inline-block;
+  width: 100%;
+  display: inline-block;
+}
+
+#footer1 b{
+font-size: 20px;
+} 
+
+
+#footer2 {
+  background-color: black;
+  color: green;
+  width: 100%;
+  font-size: 25px;
+  height: 35px;
+
+}
